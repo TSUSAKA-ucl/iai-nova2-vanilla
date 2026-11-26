@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@ucl-nuee/iai-nova2':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.1
+        version: 1.0.1
       '@ucl-nuee/ik-cd-worker':
-        specifier: 1.0.8
-        version: 1.0.8(@msgpack/msgpack@3.1.3)(aframe@1.7.1)
+        specifier: ^1.0.9
+        version: 1.0.9(@msgpack/msgpack@3.1.3)(aframe@1.7.1)
       '@ucl-nuee/robot-loader':
-        specifier: 1.2.7
-        version: 1.2.7(@ucl-nuee/ik-cd-worker@1.0.8(@msgpack/msgpack@3.1.3)(aframe@1.7.1))(aframe@1.7.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@5.9.3)
+        specifier: ^1.2.9
+        version: 1.2.9(@ucl-nuee/ik-cd-worker@1.0.9(@msgpack/msgpack@3.1.3)(aframe@1.7.1))(aframe@1.7.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@5.9.3)
       aframe:
         specifier: 1.7.1
         version: 1.7.1
@@ -25,7 +25,7 @@ importers:
         version: 1.0.2
     devDependencies:
       '@vitejs/plugin-basic-ssl':
-        specifier: ^2.1.4
+        specifier: ^2.3.0
         version: 2.3.0(vite@7.3.8(@types/node@26.6.9))
       vite:
         specifier: ^7.3.1
@@ -456,21 +456,21 @@ packages:
     resolution: {integrity: sha512-XSZmOtMUbWCBIM+2BK134FyMFxmll1mW2mPLk/PSwYQYzGIPMgJAqL929U4qXVizLv7Xq5b7r41/o7Ombuwk0g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@ucl-nuee/iai-nova2@1.0.0':
-    resolution: {integrity: sha512-0FBDiUdG9JgHViLKDndOgSXrCxhKtisiZjMysMwZvJ1LESkqJO/WexLbuj+fV0jJqbbl3D8x0KilFUa57bNFqQ==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/iai-nova2/1.0.0/5c15513cfc09fd388d357de6fb36106e74c68b04}
+  '@ucl-nuee/iai-nova2@1.0.1':
+    resolution: {integrity: sha512-rrF9OBRRPZrOrT2G+t9R1FVCC2zSv6Nd9PlYCBVe32GAeGg3q8+VI0ivCu6mgUzFRygHqn94sB7L04SSnROB4g==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/iai-nova2/1.0.1/d3b24d0d9fdcc93532b5fc511514ba9e9a571f8b}
 
-  '@ucl-nuee/ik-cd-worker@1.0.8':
-    resolution: {integrity: sha512-TWXdMgOXY7AVv2mD8wp4Q0Wltyr0RKCuoQy6B/D2XMSYnR2wownueGurQBWTS5RKG7GEDda53oKNX9gdxspchg==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/ik-cd-worker/1.0.8/8d1581cdab946067c64604d58bc5e84a55207ddd}
+  '@ucl-nuee/ik-cd-worker@1.0.9':
+    resolution: {integrity: sha512-CQ4LfBGKUAwf9Fh8gUKR0XkwFyK4YWKBmyQaGGHKTJhhKvLuw2EAnGE9VrFMzncf7TJ2YG0AQJVOobD0qTmlig==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/ik-cd-worker/1.0.9/1e4219bde48a4e17375d189efdbed24028a610ec}
     hasBin: true
     peerDependencies:
       '@msgpack/msgpack': ^3.1.2
       aframe: ^1.7.1
 
-  '@ucl-nuee/robot-loader@1.2.7':
-    resolution: {integrity: sha512-X0qzrwybMhGc8Y5sxW3dFWwoFjE1D53LSvreDmpviMSAsu4CZK3l3QFVjIHFcEa1e+qT3/Nmhnc+AM5qQQcPKw==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/robot-loader/1.2.7/aaab957b4dad1d54eaebb21953a84940561e0a63}
+  '@ucl-nuee/robot-loader@1.2.9':
+    resolution: {integrity: sha512-B7UMRq9poLvk+kjKNwzOzwGQ50DES2cIVXRAjmEH9ngTkyMCvFSDmN5pmxsyipY/v9H6LeyiqAA45A2QndVzwA==, tarball: https://npm.pkg.github.com/download/@ucl-nuee/robot-loader/1.2.9/fcc6845ed1747de2d0715bddf0a056f2464e0019}
     hasBin: true
     peerDependencies:
-      '@ucl-nuee/ik-cd-worker': 1.0.8
+      '@ucl-nuee/ik-cd-worker': ^1.0.9
       aframe: ^1.7.1
       react: ^19.1.1
       react-dom: ^19.1.1
@@ -1898,16 +1898,16 @@ snapshots:
       '@typescript-eslint/types': 8.74.0
       eslint-visitor-keys: 5.0.1
 
-  '@ucl-nuee/iai-nova2@1.0.0': {}
+  '@ucl-nuee/iai-nova2@1.0.1': {}
 
-  '@ucl-nuee/ik-cd-worker@1.0.8(@msgpack/msgpack@3.1.3)(aframe@1.7.1)':
+  '@ucl-nuee/ik-cd-worker@1.0.9(@msgpack/msgpack@3.1.3)(aframe@1.7.1)':
     dependencies:
       '@msgpack/msgpack': 3.1.3
       aframe: 1.7.1
 
-  '@ucl-nuee/robot-loader@1.2.7(@ucl-nuee/ik-cd-worker@1.0.8(@msgpack/msgpack@3.1.3)(aframe@1.7.1))(aframe@1.7.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@5.9.3)':
+  '@ucl-nuee/robot-loader@1.2.9(@ucl-nuee/ik-cd-worker@1.0.9(@msgpack/msgpack@3.1.3)(aframe@1.7.1))(aframe@1.7.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@5.9.3)':
     dependencies:
-      '@ucl-nuee/ik-cd-worker': 1.0.8(@msgpack/msgpack@3.1.3)(aframe@1.7.1)
+      '@ucl-nuee/ik-cd-worker': 1.0.9(@msgpack/msgpack@3.1.3)(aframe@1.7.1)
       aframe: 1.7.1
       madge: 8.0.0(typescript@5.9.3)
       react: 19.3.1

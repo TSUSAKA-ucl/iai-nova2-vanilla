@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@ucl-nuee/iai-nova2": "^1.0.1",
-    "@ucl-nuee/ik-cd-worker": "workspace:*",
-    "@ucl-nuee/robot-loader": "workspace:*",
     "aframe": "1.7.1",
-    "peer": "^1.0.2"
+    "peer": "^1.0.2",
+    "@ucl-nuee/ik-cd-worker": "^1.0.9",
+    "@ucl-nuee/robot-loader": "^1.2.9"
   },
   "scripts": {
     "dev": "vite",
