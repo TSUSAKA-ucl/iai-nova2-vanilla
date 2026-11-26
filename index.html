@@ -47,17 +47,21 @@
         </a-entity>
       </a-entity>
 
-      <a-plane id="iai-nova2"
-               position="-1.0 0.0 -0.5" rotation="-90 0 -90"
-               width="0.04" height="0.04" color="blue"
+      <a-box id="iai-nova2"
+               position="0.0 1.0 -1.0" rotation="-90 0 0"
+               width="0.6" height="0.3" depth="0.1" color="slateGrey"
                robot-loader="model: iai-nova2"
-               ik-worker="0.2, -0.40, 1.57, -1.57, 0, 0.79, 0"
+               ik-worker="0.4, -0.40, -0.3, -1.57, 0.3, 1.57, 0"
+               joint-weight="override: 0:0.0005"
                reflect-collision="color: yellow"
                exact_solution="exact: false"
                reflect-joint-limits
+               joint-limit-keep-moving-mask="mask: 0, 0, 0, 0, 1, 1, 1"
+               joint-desirable="gain: 3:200.; upper: 3:-1.57; lower: 3:-1.57"
                arm-motion-ui
                attach-opacity-recursively="opacity: 0.85"
-	       >
+               base-mover
+               >
       </a-plane>
   </body>
 </html>
